@@ -24,7 +24,7 @@ elif temp < 0 or temp > 30:
 name = ""
 
 while len(name) == 0:
-    name = input("Please enter your name: ")
+    name = str(input("Please enter your name: "))
 
 print("Hello " + name)
 
@@ -37,3 +37,12 @@ for sec in range(10, 0, -1):
     print(sec)
     time.sleep(1)
 print("Happy New Year:)")
+
+rows = int(input("How many rows do you want the shape to have? "))
+columns = int(input("How many columns do you want? "))
+symbol = input("Enter the symbol to use ")
+
+for c in range(columns):
+    for r in range(rows):
+        print(symbol, end = "")
+    print()
