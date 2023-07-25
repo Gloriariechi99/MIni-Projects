@@ -22,9 +22,12 @@ if __name__ == "__main__":
 a = int(input("Enter the value of a "))
 b = int(input("Enter the value of b "))
 ad = a + b
-print(ad)
+print("The sum of ", str(a) + " and ", str(b)  + " is ", str(ad))
 sub = a - b
-print(sub)
+print("The difference of ", str(a) + " and ", str(b) + " is ", str(sub))
 mul = a * b
-print(mul)
-
+print("The product of ", str(a) + " and ", str(b) + " is ", str(mul))
+int_div = a // b
+print("The integer division of ", str(a) + " and ", str(b) + " is ", str(int_div))
+float_div = a / b
+print("The float division of ", str(a) + " and ", str(b) + " is ", str(float_div))
