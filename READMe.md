@@ -1,1 +1,0 @@
-Simple projects using python
