@@ -31,3 +31,5 @@ int_div = a // b
 print("The integer division of ", str(a) + " and ", str(b) + " is ", str(int_div))
 float_div = a / b
 print("The float division of ", str(a) + " and ", str(b) + " is ", str(float_div))
+
+
