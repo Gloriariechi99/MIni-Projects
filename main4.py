@@ -48,6 +48,16 @@ else:
     weight_kgs = float(weight) / 2.20462262185
     print("You weigh", str(weight_kgs) + " kilograms")
 
+#handling errors
+try:
+    age  = int(input("Age: "))
+    print(age)
+    income = int(input("Income: "))
+    risk = income / age
+except ZeroDivisionError:
+    print("Age cannot be zero")
+except ValueError:
+    print("Invalid value")
 
 
 
