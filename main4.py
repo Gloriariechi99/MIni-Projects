@@ -29,6 +29,25 @@ if good_credit and not highIncome:
 else:
     print("Customer is not eligible for a loan")
 
+name1 = input("Please enter your name ")
+
+if len(name1) < 3:
+    print("Name must be more than three characters")
+elif len(name1) > 50:
+    print("Name must be less than fifty characters")
+else:
+    print("Name looks good!")
+
+weight = input("Please enter your weight ")
+unit = input("Lbs or kgs ")
+ 
+if unit.lower() == "kgs":
+    weight_lbs = float(weight) * 2.20462262185
+    print("You weigh", str(weight_lbs) + " pounds")
+else:
+    weight_kgs = float(weight) / 2.20462262185
+    print("You weigh", str(weight_kgs) + " kilograms")
+
 
 
 
