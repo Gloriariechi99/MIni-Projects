@@ -7,8 +7,8 @@ def kgs_to_lbs(weight):
 
 
 def find_max(numbers):
-    max = numbers[0]
+    max1 = numbers[0]
     for num in numbers:
-        if num >  max:
-            max = num
-    return max 
+        if num >  max1:
+            max1 = num
+    return max1 
